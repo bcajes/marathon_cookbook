@@ -23,7 +23,7 @@ end
 include_recipe 'apt'
 include_recipe 'java'
 include_recipe 'runit'
-include_recipe 'mesos::install'
+#include_recipe 'mesos::install' #don't need mesos to install -bcajes
 
 link '/usr/lib/libmesos.so' do
   to '/usr/local/lib/libmesos.so'
