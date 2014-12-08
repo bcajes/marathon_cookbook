@@ -21,7 +21,7 @@ class ::Chef::Recipe
 end
 
 include_recipe 'apt'
-include_recipe 'java'
+#include_recipe 'java'
 include_recipe 'runit'
 #include_recipe 'mesos::install' #don't need mesos to install -bcajes
 
